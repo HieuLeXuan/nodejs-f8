@@ -1,18 +1,19 @@
 {
-  "name": "nodejs-f8",
-  "version": "1.0.0",
-  "description": "learn nodejs from fe channel",
-  "main": "src/index.js",
-  "scripts": {
-    "start": "nodemon --inspect src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "hieulexuan",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "express-handlebars": "^7.1.2",
-    "morgan": "^1.10.0",
-    "nodemon": "^3.0.1"
-  }
+    "name": "nodejs-f8",
+    "version": "1.0.0",
+    "description": "learn nodejs from fe channel",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "nodemon --inspect src/index.js",
+        "watch": "node-sass --watch ./src/resources/scss/ --output ./src/public/css/"
+    },
+    "author": "HieuLeXuan",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "express-handlebars": "^7.1.2",
+        "morgan": "^1.10.0",
+        "node-sass": "^9.0.0",
+        "nodemon": "^3.0.1"
+    }
 }
